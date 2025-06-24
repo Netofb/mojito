@@ -1,7 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React from 'react'
-import { featureLists, goodLists } from '../../constants'
+import { featureLists, goodLists } from '../../constants/index.js'
 import { useMediaQuery } from 'react-responsive'
 
 const Art = () => {
@@ -49,7 +49,7 @@ const Art = () => {
           </ul>
           <div className='cocktail-img'>
               <img src="/images/under-img.jpg" alt="cocktail"
-              className='abs-center masked-img size-full object-contain rounded-md'
+              className='abs-center masked-img size-full object-contain'
               />
           </div>
          <ul className='space-y-4 will-fade'>
