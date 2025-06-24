@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useRef } from 'react'
-import { allCocktails } from '../../Constants/index.js'
+import { allCocktails } from '../../constants/index.js'
 import { useState } from 'react'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
